@@ -43,15 +43,15 @@
 ## 📁 脚本文件结构
 
 /var/www/html/  
-├── rhel10/
-│   ├── EFI/
-│   ├── images/
-│   └── ...
-/var/lib/tftpboot/
-├── images/
-├── grub/
-├── pxelinux.0
-└── ...
+├── rhel10/  
+│   ├── EFI/  
+│   ├── images/  
+│   └── ...  
+/var/lib/tftpboot/  
+├── images/  
+├── grub/  
+├── pxelinux.0  
+└── ...  
 /etc/dhcp/dhcpd.conf
 /etc/httpd/conf.d/ssl-pxe.conf
 
