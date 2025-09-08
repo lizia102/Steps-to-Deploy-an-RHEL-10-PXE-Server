@@ -52,7 +52,7 @@
 ├── grub/  
 ├── pxelinux.0  
 └── ...  
-/etc/dhcp/dhcpd.conf
+/etc/dhcp/dhcpd.conf  
 /etc/httpd/conf.d/ssl-pxe.conf
 
 ---
