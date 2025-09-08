@@ -140,7 +140,10 @@ bash sudo ./pxe-http-https-deploy.sh
 
 脚本会自动配置防火墙和 SELinux：
 
-bash firewall-cmd --permanent --add-service={http,https,dhcp,tftp} firewall-cmd --reload  setsebool -P httpd_read_user_content=1 setsebool -P tftp_anon_write=1 
+bash firewall-cmd --permanent --add-service={http,https,dhcp,tftp} 
+firewall-cmd --reload  
+setsebool -P httpd_read_user_content=1 
+setsebool -P tftp_anon_write=1 
 
 ---
 
