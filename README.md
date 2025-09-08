@@ -61,17 +61,19 @@
 
 在运行脚本前，请根据实际情况修改以下配置：
 
+```ini
 # ======== 配置区 ========
-ISO_PATH="/path/to/rhel-10-x86_64-dvd.iso"          # RHEL ISO 文件路径  
-WEB_ROOT="/var/www/html"                            # Web 服务根目录  
-TFTP_ROOT="/var/lib/tftpboot"                       # TFTP 根目录  
-USE_HTTPS="true"                                    # 是否启用 HTTPS  
-PXE_SUBNET="192.168.1.0"                            # PXE 子网  
-PXE_NETMASK="255.255.255.0"                         # 子网掩码  
-PXE_ROUTER="192.168.1.1"                            # 网关（也是 DHCP/TFTP/HTTP 服务器）  
-PXE_DNS="8.8.8.8"                                   # DNS  
-PXE_IP_RANGE="192.168.1.100 192.168.1.200"          # DHCP 地址池  
-DOMAIN_NAME="pxe.example.com"                       # 域名（用于 HTTPS）  
+ISO_PATH="/path/to/rhel-10-x86_64-dvd.iso"  # RHEL ISO 文件路径
+WEB_ROOT="/var/www/html"                    # Web 服务根目录
+TFTP_ROOT="/var/lib/tftpboot"               # TFTP 根目录
+USE_HTTPS="true"                            # 是否启用 HTTPS
+PXE_SUBNET="192.168.1.0"                    # PXE 子网
+PXE_NETMASK="255.255.255.0"                 # 子网掩码
+PXE_ROUTER="192.168.1.1"                    # 网关（也是 DHCP/TFTP/HTTP 服务器）
+PXE_DNS="8.8.8.8"                           # DNS
+PXE_IP_RANGE="192.168.1.100 192.168.1.200"  # DHCP 地址池
+DOMAIN_NAME="pxe.example.com"               # 域名（用于 HTTPS）
+
 
 ---
 
