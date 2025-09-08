@@ -61,7 +61,7 @@
 
 在运行脚本前，请根据实际情况修改以下配置：
 
-# ====================== 配置区 ======================
+# ======== 配置区 =======
 ISO_PATH="/path/to/rhel-10-x86_64-dvd.iso"          # RHEL ISO 文件路径
 WEB_ROOT="/var/www/html"                            # Web 服务根目录
 TFTP_ROOT="/var/lib/tftpboot"                       # TFTP 根目录
